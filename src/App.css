@@ -1,9 +1,19 @@
 .wrapper {
 }
 
-.title {
-  text-align: center;
+.heading {
   color: white;
+  text-align: center;
+}
+
+.description {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+.description span {
+  color: lightcoral;
 }
 
 .main {
@@ -11,26 +21,36 @@
   justify-content: space-around;
 }
 
+header {
+  color: white;
+  font-size: 1.25em;
+  margin-bottom: 8px;
+}
+
 .editor-container {
   width: 40%;
 }
 #editor {
   width: 100%;
-  min-height: 500px;
-  resize: vertical;
+  height: 80vh;
+  resize: none;
   outline: none;
+  border: none;
   padding: 5px;
   font-size: 14px;
   background-color: #eae9eb;
+  box-shadow: 2px 8px 10px 2px rgba(0, 0, 0, 0.5);
 }
 
 #preview-container {
   width: 50%;
-  min-height: 400px;
 }
 
 #preview {
   width: 100%;
   padding: 5px;
   background-color: #eae9eb;
+  max-height: 80vh;
+  overflow: scroll;
+  box-shadow: 2px 8px 10px 2px rgba(0, 0, 0, 0.5);
 }

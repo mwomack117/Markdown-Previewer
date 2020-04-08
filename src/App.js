@@ -25,7 +25,16 @@ class App extends Component {
 
     return (
       <div className="wrapper">
-        <h1 className="title">A Simple Markdown Previewer</h1>
+        <div className="heading">
+          <h1>A Simple Markdown Previewer</h1>
+          <p className="description">
+            Markdown is an easy-to-read, easy-to-write syntax for formatting
+            plain text. Use it in the <span>Editor</span> box and see the
+            fortmatted text in the
+            <span> Preview</span> box.
+          </p>
+        </div>
+
         <div className="main">
           <Editor markdown={markdown} onChange={this.handleChange} />
           <Preview markdown={markdown} />
