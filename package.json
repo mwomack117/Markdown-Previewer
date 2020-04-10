@@ -1,7 +1,7 @@
 {
   "name": "markdown_previewer",
   "version": "0.1.0",
-  "homepage": "http://mwomack117.github.io/React-Markdown-Previewer",
+  "homepage": "http://mwomack117.github.io/Markdown-Previewer",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
